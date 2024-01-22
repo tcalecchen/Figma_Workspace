@@ -8,6 +8,5 @@
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../stylesheets/helpers/variables";
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "./components/header"
+@import "../stylesheets/components/header";
