@@ -12383,6 +12383,17 @@ textarea.form-control-lg {
   height: 504px;
   background-position: center center;
   background-size: cover;
+  position: relative;
+}
+.header::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.1;
 }
 
 .object-fit-cover {
@@ -12392,4 +12403,8 @@ textarea.form-control-lg {
 
 .height-s5 {
   height: 360px;
+}
+
+.height-s3 {
+  height: 180px;
 }/*# sourceMappingURL=all.css.map */
